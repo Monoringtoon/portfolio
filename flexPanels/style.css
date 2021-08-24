@@ -1,0 +1,94 @@
+html, body
+{
+    margin: 0;
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.2rem;
+    font-weight: 300;
+    overflow-y: hidden;
+}
+
+#container
+{
+    display: flex;
+}
+
+p
+{
+    margin: 0;
+}
+
+.panel
+{
+    width: 20%;
+    height: 100vh;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    transition: width 0.5s cubic-bezier(0.645, 0.045, 0.355, 1), font-size 1s;
+}
+
+.panel > p:first-child
+{
+    transform: translateY(-1000%);
+    transition: transform 0.5s linear;
+}
+
+.panel > p:last-child
+{
+    transform: translateY(1000%);
+    transition: transform 0.5s linear;
+}
+
+
+p.middle
+{
+    font-weight: 600;
+}
+
+#p1
+{
+    background-image: url(./p1.JPG);
+    background-size: cover;
+}
+
+#p2
+{
+    background-image: url(./p2.JPG);
+    background-size: cover;
+}
+
+#p3
+{
+    background-image: url(./p3.JPG);
+    background-size: cover;
+}
+
+#p4
+{
+    background-image: url(./p4.JPG);
+    background-size: cover;
+}
+
+#p5
+{
+    background-image: url(./p5.JPG);
+    background-size: cover;
+}
+
+.open
+{
+    
+    font-size: 3rem;
+    width: 80%;
+}
+
+.panel.openActive > p:first-child
+{
+    transform: translateY(0);
+}
+
+.panel.openActive > p:last-child
+{
+    transform: translateY(0);
+}
+

@@ -1,0 +1,34 @@
+#klokRand
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 10px solid lightskyblue;
+    margin: 40vh auto;
+}
+
+.wijzer
+{
+    width: 3px;
+    height: 65px;
+    background-color: black;
+    margin: 10px 0;
+    position: absolute;
+    left: 50%;
+    transform-origin: bottom;
+}
+
+#uur
+{
+    height: 40px;
+    margin: 35px 0;
+}
+
+#minuut
+{
+}
+
+#seconde
+{
+    width: 1px;
+}
