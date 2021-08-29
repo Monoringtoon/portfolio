@@ -1,0 +1,88 @@
+*
+{
+    max-width: 800px;
+    margin: auto;
+}
+
+div.content
+{
+    text-align: center;
+    margin-top: 10px;
+}
+
+form
+{
+    text-align: center;
+}
+
+p, #hobby, form
+{
+    font-size: 1rem;
+    color: darkgrey;
+}
+
+h1
+{
+    min-height: 48px;
+    text-align: center;
+}
+
+footer
+{
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    text-align: end;
+    margin-top: 10px;
+    padding: 5px;
+    position: absolute;
+    width: 80%;
+    bottom: 0px;
+}
+
+ul
+{
+    padding: 0;
+    list-style: none;
+}
+
+ul.menu
+{
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+ul a
+{
+    color: white;
+    font-size: 2rem;
+    background-color: lightgray;
+    padding: 5px;
+    border-radius: 10%;
+}
+
+input
+{
+    width: 400px;
+    margin-bottom: 5px;
+}
+
+textarea
+{
+    width: 400px;
+    margin-bottom: 5px;
+}
+
+.error
+{
+    display: block;
+    font-size: 0.75rem;
+    color: #e61818;
+    margin-bottom: 7px;
+}
